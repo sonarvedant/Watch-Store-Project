@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
-
 :root {
   --primary-color: #0d9488;
   --text-dark: #0f172a;
@@ -7,7 +6,6 @@
   --white: #ffffff;
   --max-width: 1200px;
 }
-
 * {
   padding: 0;
   margin: 0;
@@ -20,6 +18,22 @@ body {
   max-width: 100%;
   overflow-x: hidden;
   scroll-behavior: smooth;
+}
+#loader {
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  color: white;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 99;
+  gap: 10px;
+  text-transform: uppercase;
+}
+#loader h3{
+  font-size: 3.9vw;
 }
 
 body {
